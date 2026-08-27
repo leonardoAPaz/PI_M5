@@ -13,7 +13,7 @@ def cargarDatos():
 
     # 4. Leemos los datos y los imprimimos
     df = pd.read_excel(ruta_excel)
-    print(df)
+
     return df
 
 if __name__ == "__main__":
